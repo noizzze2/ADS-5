@@ -29,7 +29,7 @@ class TStack {
         if (!isEmpty()) {
             return data[top_index--];
         }
-        return T();  // значение по умолчанию
+        return T();
     }
 
     T top() const {
@@ -40,4 +40,4 @@ class TStack {
     }
 };
 
-#endif  // INCLUDE_TSTACK_H_
+#endif // INCLUDE_TSTACK_H_
